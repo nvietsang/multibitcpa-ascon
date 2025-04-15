@@ -1,0 +1,17 @@
+time python3 main.py --task 0\
+                      --selection-function z1\
+                      --n-bits-selection-function 2\
+                      --target-key k1\
+                      --first-subkey-index 2 10 11 20 22 28 30 37 39 43 46 48 55 57\
+                      --n-rank 8\
+                      --n-traces 10000\
+                      --n-repetition 3\
+                      --space 10000\
+                      --path-to-traces ../bi32-armv6/traces\
+                      --start-sample 150\
+                      --end-sample 500\
+                      --step 200\
+                      --data-type float64\
+                      --path-to-nonces ../bi32-armv6/nonces.npy\
+                      --path-to-checkpoints ../bi32-armv6/checkpoints\
+                    #   --to-shuffle
