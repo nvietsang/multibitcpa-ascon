@@ -14,4 +14,4 @@ time python3 main.py --task 0\
                       --data-type float64\
                       --path-to-nonces ../bi32-armv6/nonces.npy\
                       --path-to-checkpoints ../bi32-armv6/checkpoints\
-                    #   --to-shuffle
+                      --to-shuffle
